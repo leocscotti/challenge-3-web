@@ -1,5 +1,6 @@
 import BikeCompleta from '../../assets/images/bike-completa.jpg'
 import Pedivela from '../../assets/images/pedivela.jpg'
+import BikeFrente from '../../assets/images/bike-frente.png'
 
 export default function Vistoria(){
 
@@ -17,6 +18,14 @@ export default function Vistoria(){
                 <img src={Pedivela} alt="Pedivela" className='fotosBike' />
                 <p>
                     <strong>Tire uma foto do pédivela da sua bike</strong>
+                </p>
+                <button>Tirar foto</button>
+            </div>
+
+            <div>
+                <img src={BikeFrente} alt="BikeFrente" className='fotosBike'/>
+                <p>
+                    <strong>Tire uma foto da sua bicicleta de frente (não obstrua a marca)</strong>
                 </p>
                 <button>Tirar foto</button>
             </div>
