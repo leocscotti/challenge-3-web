@@ -1,4 +1,4 @@
-import LogoWhatsapp from '../../assets/images/logo-wpp.jpg'
+
 export default function Home(){
 
     return(
