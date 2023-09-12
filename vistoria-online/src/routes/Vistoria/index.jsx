@@ -2,7 +2,7 @@ import BikeCompleta from '../../assets/images/bike-completa.jpg'
 import Pedivela from '../../assets/images/pedivela.jpg'
 import BikeFrente from '../../assets/images/bike-frente.png'
 import LadoDireito from '../../assets/images/lado-direito.png'
-
+import NumeroSerie from '../../assets/images/numero-series.png'
 export default function Vistoria(){
 
     return(
@@ -38,6 +38,13 @@ export default function Vistoria(){
                 </p>
                 <button>Tirar foto</button>
             </div>
+            <div>
+                <img src={NumeroSerie} alt="NumeroSerie" className='fotosBike'/>
+                <p>
+                    <strong>Tire uma foto completa do numero de serie da sua bicicleta . (não obstrua a marca)</strong>
+                </p>
+                <button>Tirar foto</button>
+                </div>   
             
             
         </main>
