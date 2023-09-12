@@ -2,6 +2,7 @@ import BikeCompleta from '../../assets/images/bike-completa.jpg'
 import Pedivela from '../../assets/images/pedivela.jpg'
 import BikeFrente from '../../assets/images/bike-frente.png'
 import LadoDireito from '../../assets/images/lado-direito.png'
+import NotaFiscal from '../../assets/images/nota-fiscal.png'
 
 export default function Vistoria(){
 
@@ -38,7 +39,13 @@ export default function Vistoria(){
                 </p>
                 <button>Tirar foto</button>
             </div>
-            
+            <div>
+                <img src={NotaFiscal} alt="nota fiscal" className='fotosBike'/>
+                <p>
+                    <strong>Tire uma foto completa da nota fiscal da sua bike</strong>
+                </p>
+                <button>Tirar foto</button>
+            </div>
             
         </main>
     )
