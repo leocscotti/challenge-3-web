@@ -1,6 +1,7 @@
 import BikeCompleta from '../../assets/images/bike-completa.jpg'
 import Pedivela from '../../assets/images/pedivela.jpg'
 import BikeFrente from '../../assets/images/bike-frente.png'
+import LadoDireito from '../../assets/images/lado-direito.png'
 
 export default function Vistoria(){
 
@@ -26,6 +27,14 @@ export default function Vistoria(){
                 <img src={BikeFrente} alt="BikeFrente" className='fotosBike'/>
                 <p>
                     <strong>Tire uma foto da sua bicicleta de frente (não obstrua a marca)</strong>
+                </p>
+                <button>Tirar foto</button>
+            </div>
+
+            <div>
+                <img src={LadoDireito} alt="LadoDireito" className='fotosBike'/>
+                <p>
+                    <strong>Tire uma foto do lado direito da sua bicicleta, sempre do lado que apareça a corrente (não obstrua a marca)</strong>
                 </p>
                 <button>Tirar foto</button>
             </div>
