@@ -1,6 +1,9 @@
 export default function Integrantes(){
 
+  
+
     return(
+
         <main>
             <h1>TheBikers</h1>
 
@@ -15,4 +18,4 @@ export default function Integrantes(){
             
         </main>
     )
-}
+    }
