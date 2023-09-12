@@ -8,8 +8,6 @@ export default function Menu(){
             <span> | </span>
             <Link to='/vistoria'>Vistoria</Link>
             <span> | </span>
-            <Link to='/duvidas'>Duvidas</Link>
-            <span> | </span>
             <Link to='/integrantes'>Nosso time</Link>
         </nav>
     )
