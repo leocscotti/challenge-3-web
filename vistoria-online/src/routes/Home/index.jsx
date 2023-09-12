@@ -1,12 +1,7 @@
-// import Logo from '../../assets/images/logo-porto.png'
-
 export default function Home(){
 
     return(
         <main>
-            {/* <div>
-                <img src={Logo} alt="Logo Porto" />
-            </div> */}
             <div>
                 <h2>Quem somos?</h2>
                 <p>A porto é mais que uma seguradora: é um ecossistema com todas as soluções para transformar sonhos em realidades diárias.</p>

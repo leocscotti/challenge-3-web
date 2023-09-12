@@ -6,7 +6,7 @@ export default function Vistoria(){
     return(
         <main>
             <div>
-                <img src={BikeCompleta} alt="BikeCompleta"/>
+                <img src={BikeCompleta} alt="BikeCompleta" className='fotosBike'/>
                 <p>
                     <strong>Tire uma foto completa da sua bike, sempre do lado que apareça a corrente (não obstrua a marca)</strong>
                 </p>
@@ -14,7 +14,7 @@ export default function Vistoria(){
             </div>
 
             <div>
-                <img src={Pedivela} alt="Pedivela" />
+                <img src={Pedivela} alt="Pedivela" className='fotosBike' />
                 <p>
                     <strong>Tire uma foto do pédivela da sua bike</strong>
                 </p>
