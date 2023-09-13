@@ -1,4 +1,5 @@
 import LogoPorto from "../assets/images/logo-porto.png"
+import './rodape.css'
 export default function Rodape(){
 
     return(
@@ -7,7 +8,5 @@ export default function Rodape(){
             <p>Adicione a Porto no WhatsApp e siga as orientações da nossa assistente virtual: </p>
             <button> (11) 3003 9303</button>
         </footer>
-
-    
     )
 }
