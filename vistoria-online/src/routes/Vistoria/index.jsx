@@ -1,3 +1,4 @@
+
 import React, { useState } from 'react';
 import BikeFrente from '../../assets/images/bikeFrente.png'
 import BikeDireito from '../../assets/images/bikeDireito.png'
@@ -8,6 +9,7 @@ import NotaFiscal from '../../assets/images/nota-fiscal.png';
 
 export default function Vistoria() {
   const [divToShow, setDivToShow] = useState('bikeCompleta');
+
 
   const mostrarDiv = (divId) => {
     setDivToShow(divId);
@@ -121,3 +123,4 @@ export default function Vistoria() {
     </main>
   );
 }
+
